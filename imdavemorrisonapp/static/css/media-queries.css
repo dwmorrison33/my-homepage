@@ -72,8 +72,6 @@
 	
 	.how-it-works-box-icon .how-it-works-step { left: 20px; }
     
-    .pricing-box { padding-bottom: 50px; }
-    .pricing-box:last-child { padding-bottom: 0; }
 	
 	.testimonial-list .testimonial-image { float: none; width: auto; text-align: center; }
 	.testimonial-list .testimonial-text { float: none; width: auto; margin-top: 30px; text-align: center; }
@@ -99,9 +97,9 @@ only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
 	
-	/* logo */
+	/* logo 
     .navbar-brand {
-    	background-image: url(../img/logo@2x.png) !important; background-repeat: no-repeat !important; background-size: 97px 29px !important;
+    	background-image: url(../img/dwm.png) !important; background-repeat: no-repeat !important; background-size: 97px 29px !important;
     }
-	
+	*/
 }
