@@ -99,12 +99,13 @@
                             	<form role="form" action="{% url 'home' %}" method="POST" class="registration-form">{% csrf_token %}
                                     {{ form.non_field_errors }}
                                     {% for field in form %}
-                                    <div class="form-group">
+                                    <div class="form-group"><center>
+                                    	{{ field.label }}
                                         {{ field }}
-                                        {{ field.errors }}
+                                        {{ field.errors }}</center>
 			                        </div>
                                     {% endfor %}
-			                        <a href="{% url 'home' %}"><button type="submit" class="btn">Submit <i class="fa fa-sign-in" aria-hidden="true"></i></button></a>
+			                        <a href="{% url 'home' %}"><center><button type="submit" class="btn">Submit <i class="fa fa-sign-in" aria-hidden="true"></i></button></center></a>
 			                    </form>
 		                    </div>
                         </div>

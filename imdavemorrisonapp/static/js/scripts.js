@@ -25,10 +25,10 @@ jQuery(document).ready(function() {
     /*
         Background slideshow
     */
-    $('.top-content').backstretch("static/img/backgrounds/nightsky.jpg");
-    $('.how-it-works-container').backstretch("static/img/backgrounds/nightsky.jpg");
-    $('.call-to-action-container').backstretch("static/img/backgrounds/nightsky.jpg");
-    $('.testimonials-container').backstretch("static/img/backgrounds/nightsky.jpg");
+    $('.top-content').backstretch("static/img/backgrounds/nightskys.jpg");
+    $('.how-it-works-container').backstretch("static/img/backgrounds/nightskys.jpg");
+    $('.call-to-action-container').backstretch("static/img/backgrounds/nightskys.jpg");
+    $('.testimonials-container').backstretch("static/img/backgrounds/nightskys.jpg");
     
     $('#top-navbar-1').on('shown.bs.collapse', function(){
     	$('.top-content').backstretch("resize");
